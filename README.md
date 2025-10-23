@@ -1,3 +1,3 @@
-# devsoc-verti-assignments
+# WebDev assignments
 I'm Siddharth Jai Gokulan (2025B4PS1054G) and these are my DevSoc Crew assignments!
-(I've uploaded each vertical's assignments in its corresponding branch.)
+This page contains my submissions for the WebDev vertical.
