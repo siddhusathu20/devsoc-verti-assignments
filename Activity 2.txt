@@ -1,0 +1,40 @@
+Example 1:
+Why it's bad: All text, no images and no unique styling.
+How I'd fix it: Add images and use unique fonts and colours to give the page a characteristic identity.
+
+Example 2:
+Why it's bad: The page is extremely cluttered, with important information and links not being highlighted well enough in a sea of small text.
+How I'd fix it:
+- Give each post a separate card or box with some padding and space between the cards and enlarge and bolden the title of the post.
+- Use icons to label information like points, comments and the hide button instead of text.
+- Separate the navigation bar from the rest of the page by a noticeable margin and make the navigation buttons bigger and further apart.
+
+Example 3:
+Why it's bad: The page is an incredibly cluttered eyesore, with an overwhelming amount of content presented through small text or poorly stretched images, badly laid out and overlapping elements and bad contrast in some areas.
+How I'd fix it: Some things just aren't made to be fixed. That said, if I tried, I'd give each set of related elements its own vertical section covering the entire screen width and lay the elements within each section out on a clean grid with appropriate spacing. This makes the page a lot longer, but the information is better presented and more digestible.
+
+Example 4:
+Why it's bad:
+- The contrast between the foreground elements and background pattern is poor.
+- The spacing and alignment of elements are weird across the page. The search bar is not in line with the arrow and the icons for the 'most popular' entries are not spaced far enough away from the text next to them.
+- The search bar is too small.
+- The punctuation in the labels is incorrect.
+- The logo subtitle is not perfectly centred.
+How I'd fix it:
+- Use a lighter background and make the text at the bottom black.
+- Make the search bar and 'Go!' button larger.
+- Fix the punctuation of the text:
+'Search for X-Ray Products: '
+'Or select from some of our most popular...'
+- Place the icons and corresponding text in the 'most popular' section further apart and add borders and margins to every entry.
+- Centre the logo subtitle correctly.
+
+Example 5:
+Why it's bad:
+- The logos at the top are repeated far too often.
+- The navigation buttons are at the bottom, making them hard to see and access. They are also too close together.
+- The text near the bottom is oddly spaced. (The top and bottom of their container seem to have no padding while the entries themselves have large gaps between them.)
+How I'd fix it:
+- Have only one instance of the logo and place it inside the pink bar at the top.
+- Move the navigation buttons into the top bar, below the row with the existing contents.
+- Place the images on the left half of the page and have the text and news container on the right with uniform vertical padding.
