@@ -61,14 +61,22 @@ def move_opponent():
         opponent_paddle.bottom = screen_height
 
 pygame.init()
+pygame.mixer.init()
 clock = pygame.time.Clock()
 
 screen = pygame.display.set_mode((screen_width, screen_height))
 pygame.display.set_caption("birb pong")
 
-ball = pygame.Rect(screen_width/2 - 15, screen_height/2 - 15, 30, 30)
-player_paddle = pygame.Rect(screen_width - 20, screen_height/2 - 70, 10, 140)
-opponent_paddle = pygame.Rect(10, screen_height/2 - 70, 10, 140)
+pygame.mixer.music.load("bgm (by DELOSound on Pixabay).mp3")
+pygame.mixer.music.play(-1)
+
+ball_img = pygame.image.load("ball.png").convert()
+player_img = pygame.image.load("blue.png").convert()
+opponent_img = pygame.image.load("red.png").convert()
+
+ball = ball_img.get_rect(topleft=(screen_width/2 - 16, screen_height/2 - 16))
+player_paddle = player_img.get_rect(topleft=(screen_width - 20, screen_height/2 - 70))
+opponent_paddle = opponent_img.get_rect(topleft=(10, screen_height/2 - 70))
 
 while True:
     if game_in_prog:
@@ -100,9 +108,9 @@ while True:
         move_opponent()
         
         screen.fill((0, 0, 0))
-        pygame.draw.rect(screen, (0, 255, 255), player_paddle)
-        pygame.draw.rect(screen, (0, 255, 255), opponent_paddle)
-        pygame.draw.ellipse(screen, (0, 255, 255), ball)
+        screen.blit(player_img, player_paddle)
+        screen.blit(opponent_img, opponent_paddle)
+        screen.blit(ball_img, ball)
         pygame.draw.aaline(screen, (0, 255, 255), (screen_width / 2, 0), (screen_width / 2, screen_height))
 
         pygame.display.flip()
