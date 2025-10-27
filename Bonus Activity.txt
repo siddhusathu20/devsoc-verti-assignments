@@ -1,0 +1,8 @@
+The Annoyance:
+There's too much stuff to keep track of and not one convenient solution that combines intelligently-spaced reminders for upcoming tasks (recurring or otherwise) as well as more personal goals like nutrition - I tried keeping track of this stuff using both multiple apps and my room whiteboard, but both approaches were needlessly slow and cumbersome.
+
+The Solution:
+One app with:
+- The ability to add recurring and non-recurring tasks to a to-do list and get automatic intelligently spaced reminders
+- Progress logging for continuous tasks or preparation
+- Nutrition tracking and goals
