@@ -1,0 +1,9 @@
+User Journey Map:
+1. Open the app
+2. Search for food items
+3. Scroll through available restaurants and choose one to buy from (Frustration! Potentially too many options to choose from - having a top recommendation helps.)
+4. Select the item on the restaurant page and add it to your cart
+5. View your cart and proceed to checkout
+6. Pay using your selected payment method (Happiness! Order placed successfully.)
+7. Wait for/track your order (Frustration! The order could take longer to deliver than expected.)
+8. Collect order when delivered (Happiness! The order is delivered and the user gets to eat.)
